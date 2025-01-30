@@ -13,8 +13,7 @@ load_dotenv(override=True)
 openai = OpenAI()
 
 question = """
-Please explain what this code does and why:
-yield from {book.get("author") for book in books if book.get("author")}
+"What are the key considerations when designing an efficient prompt structure to optimize token usage and response accuracy in an LLM API call?"
 """
 
 system_prompt = "You are an LLM and AI engineering tutor who answers questions posed by the user about AI, \
